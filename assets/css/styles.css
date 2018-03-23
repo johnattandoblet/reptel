@@ -1,0 +1,114 @@
+*{
+    font-family: "Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.reset{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.navbar-dark, .bg-dark{
+    background-color: rgb(49,51,50);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar-brand-logo{
+    height: 50px;
+    width: 200px;
+}
+.carousel-indicators {
+     bottom: 20px;
+     transform:rotate(180deg);
+         left: inherit;
+}
+.active{
+    color:rgb(124,133,52) !important;
+}
+.carousel-indicators .active {
+    background-color:rgb(124,133,52);
+}
+.carousel-indicators li{
+    bottom: 1em;
+    height: 20px;
+    margin: 0 10px;
+    transform: rotate(45deg);
+    width: 20px;
+}
+.main-band{
+    color: #fff;
+}
+.main-band-inner{
+    margin: 1em 0;
+}
+.separator{
+    background: #333;
+    background:url('../img/main/separator.png') center center no-repeat;
+    background-size: contain;
+    color: #eee;
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    padding: 5px;
+    position:relative;
+    width: 100%;
+}
+.separator span{
+    margin-left: 80px;
+}
+.card{
+    border:0;
+}
+.card-image{
+    height: auto;
+    max-width: 200px; 
+}
+ul.diamonds-orange{
+    list-style: none;
+    margin: 2em;
+    padding: 0;
+}
+ul.diamonds-orange li{
+    margin: 0;
+    margin-bottom: 1em;
+    padding-left: 2.5em;
+    position: relative;
+}
+ul.diamonds-orange li:after{
+    background: rgb(240,90,40);
+    content:'';
+    display: block;
+    height: 1em;
+    left: 0;
+    position: absolute;
+    transform: rotate(45deg);
+    top: .75em;
+    width: 1em;
+}
+
+ul.social-media-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.social-media-list li {
+    display: inline-block;
+}
+ul.social-media-list img {
+    padding: 5px;
+    background-color: rgb(240,90,40);
+    color: #fff;
+    width: 36px;
+    height: 36px;
+}
+ul.social-media-list li {
+    display: inline-block;
+    margin: 2px;
+}
+ul.social-media-list img:hover {
+    background-color: #63D1F4;
+}
+.padding-extra{
+    padding: 1.5em;
+}
+.margin-extra{
+    padding: 1.5em 0 ;
+}
